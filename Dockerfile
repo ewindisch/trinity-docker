@@ -10,5 +10,6 @@ WORKDIR /opt/trinity
 RUN ./configure.sh
 RUN make
 
+WORKDIR /tmp
 CMD ["--dangerous"]
-ENTRYPOINT /opt/trinity
+ENTRYPOINT /opt/trinity/trinity
