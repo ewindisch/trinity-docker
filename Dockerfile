@@ -12,4 +12,4 @@ RUN make
 
 WORKDIR /tmp
 CMD ["--dangerous"]
-ENTRYPOINT /opt/trinity/trinity
+ENTRYPOINT ["/opt/trinity/trinity"]
